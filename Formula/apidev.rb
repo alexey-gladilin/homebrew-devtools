@@ -1,9 +1,9 @@
 class Apidev < Formula
   desc "Contract-driven API code generator CLI"
   homepage "https://github.com/alexey-gladilin/apidev"
-  version "0.1.26"
-  url "https://github.com/alexey-gladilin/apidev/releases/download/v0.1.26/apidev-0.1.26-macos-arm64.tar.gz"
-  sha256 "973257c228e2c87572d9dccca6120a03eca4e3c38fd116cefb0e536ade5d82ea"
+  version "0.1.27"
+  url "https://github.com/alexey-gladilin/apidev/releases/download/v0.1.27/apidev-0.1.27-macos-arm64.tar.gz"
+  sha256 "e69f373b7f49e75d940fab1f76d2a0b69ab0c6662a222eca484aa3e3768cb772"
 
   def install
     bin.install "apidev"
