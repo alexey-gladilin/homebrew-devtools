@@ -1,9 +1,9 @@
 class Dbspec < Formula
   desc "DBSpec CLI/TUI for database design"
   homepage "https://github.com/alexey-gladilin/dbspec"
-  version "0.7.8"
-  url "https://github.com/alexey-gladilin/dbspec/releases/download/v0.7.8/dbspec-0.7.8-macos-arm64"
-  sha256 "984eff1c8e32241d655ed5de4bf3bf3f474998513aba2cb23b0813667be987b6"
+  version "0.7.9"
+  url "https://github.com/alexey-gladilin/dbspec/releases/download/v0.7.9/dbspec-0.7.9-macos-arm64"
+  sha256 "2c259c204741e5a1ed4b3532973ecc715be0f9a2c7a37aed9b0e4eea7a36940a"
 
   def install
     bin.install Dir["dbspec-*"].first => "dbspec"
